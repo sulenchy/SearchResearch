@@ -1,0 +1,12 @@
+{
+    "name": "vertical-search-engine",
+    "version": "0.0.1",
+    "description": "Scraping web for research supervisor",
+    "main": "server.js",
+    "author": "Sulenchy",
+    "dependencies": {
+        "express": "latest",
+        "request": "latest",
+        "cheerio": "latest"
+    }
+}
