@@ -1,62 +1,721 @@
 [
     {
-        "fullName": "Professor Peter Atkinson",
-        "title": "",
-        "specialization": "",
+        "fullName": "Dr Hossein Rahmani",
+        "title": "Lecturer in Data Science",
+        "phoneNumber": "Computing and Communications",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Thomas Wells",
+        "title": "PhD student",
+        "phoneNumber": "Computing and Communications",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Dr Damian Arellanes",
+        "title": "International Lecturer (BJTU) in Computer Science",
+        "phoneNumber": "Computing and Communications",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Jonathan Woodruff",
+        "title": "PhD student",
+        "phoneNumber": "+44 (0)1524 510371",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Dr Barry Porter",
+        "title": "Lecturer",
+        "phoneNumber": "+44 (0)1524 592882",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Dr Charalampos Rotsos",
+        "title": "Lecturer in Computer Networks and Networked Systems",
+        "phoneNumber": "+44 (0)1524 510425",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Muhammad Adamu",
+        "title": "PhD student",
+        "phoneNumber": "+44 (0)1524 510371",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Professor Tracy Hall",
+        "title": "Chair in Software Engineering",
+        "phoneNumber": "+44 (0)1524 593989",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Professor Michael Pidd",
+        "title": "Emeritus Professor",
+        "phoneNumber": "Management Science",
+        "department": "Management Science",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Dr Alistair Baron",
+        "title": "Lecturer",
+        "phoneNumber": "+44 (0)1524 510037",
+        "department": "Computing and Communications",
+        "readMoreLink": "",
+        "university": "lancaster"
+    },
+    {
+        "fullName": "Dr Dalal Alrajeh",
+        "researchInterest": "\nFormal methods, software engineering, artificial intelligence for constructing correct software and their applications (e.g., software for digital forensics).\n",
+        "title": "Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~da04/",
+        "university": "imperial",
+        "email": "dalal.alrajeh04@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 2421"
+    },
+    {
+        "fullName": "Prof. Pantelis J Beaghton",
+        "researchInterest": "\nAssociate Director \n\nInstitute for Security Science and Technology\n",
+        "title": "Professor of Practice",
+        "readMoreLink": "http://www.imperial.ac.uk/people/p.beaghton",
+        "university": "imperial",
+        "email": "p.beaghton@imperial.ac.uk",
         "phoneNumber": ""
     },
     {
-        "fullName": "Professor Corina Sas",
-        "title": "",
-        "specialization": "",
+        "fullName": "Dr Francesco Belardinelli",
+        "researchInterest": "",
+        "title": "Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~fbelard/",
+        "university": "imperial",
+        "email": "francesco.belardinelli@imperial.ac.uk",
+        "phoneNumber": "020 75 94 8413"
+    },
+    {
+        "fullName": "Dr Mario Berta",
+        "researchInterest": "\nMy research area is quantum information theory, with a focus on quantum Shannon theory and quantum cryptography. I am interested in connections to mathematical physics, most importantly through the fields of matrix analysis and (non-commutative) optimization theory.\n",
+        "title": "Lecturer",
+        "readMoreLink": "http://marioberta.info/",
+        "university": "imperial",
+        "email": "mberta@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8305"
+    },
+    {
+        "fullName": "Dr Krysia Broda",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/kb/",
+        "university": "imperial",
+        "email": "k.broda@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8426"
+    },
+    {
+        "fullName": "Prof. Michael Bronstein",
+        "researchInterest": "",
+        "title": "Chair in Machine Learning and Pattern Recognition",
+        "readMoreLink": "http://www.cs.technion.ac.il/~mbron/",
+        "university": "imperial",
+        "email": "m.bronstein@imperial.ac.uk",
         "phoneNumber": ""
     },
     {
-        "fullName": "Dr Lynne Blair",
-        "title": "",
-        "specialization": "",
+        "fullName": "Dr Cristian Cadar",
+        "researchInterest": "\nSoftware Engineering, Computer Systems and Software Security, with a focus on building practical techniques for improving the reliability and security of software systems.\n",
+        "title": "Professor in Software Reliability",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~cristic/",
+        "university": "imperial",
+        "email": "c.cadar@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8244"
+    },
+    {
+        "fullName": "Dr Giuliano Casale",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/gcasale/",
+        "university": "imperial",
+        "email": "g.casale@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 2920"
+    },
+    {
+        "fullName": "Dr Antoine Cully",
+        "researchInterest": "",
+        "title": "Lecturer",
+        "readMoreLink": "mailto:a.cully@imperial.ac.uk",
+        "university": "imperial",
+        "email": "a.cully@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8204"
+    },
+    {
+        "fullName": "Prof. Andrew Davison",
+        "researchInterest": "",
+        "title": "Professor of Robot Vision",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~ajd/index.html",
+        "university": "imperial",
+        "email": "a.davison@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8316"
+    },
+    {
+        "fullName": "Dr Yves-Alexandre de Montjoye",
+        "researchInterest": "",
+        "title": "Lecturer in Data Science Institute",
+        "readMoreLink": "http://demontjoye.com/index.html",
+        "university": "imperial",
+        "email": "demontjoye@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 0991"
+    },
+    {
+        "fullName": "Dr Soteris Demetriou",
+        "researchInterest": "\nSecurity and Privacy: \n\nSystems Security, \n\nSmartphone Security, \n\nIoT Security\n",
+        "title": "Lecturer",
+        "readMoreLink": "mailto:s.demetriou@imperial.ac.uk",
+        "university": "imperial",
+        "email": "s.demetriou@imperial.ac.uk",
         "phoneNumber": ""
     },
     {
-        "fullName": "Dr Scott Piao",
-        "title": "",
-        "specialization": "Computer",
-        "phoneNumber": "Computer"
+        "fullName": "Dr Alastair Donaldson",
+        "researchInterest": "\nFormal verification techniques for multicore software. Software performance optimization for multicore processors.\n",
+        "title": "Reader",
+        "readMoreLink": "http://www.imperial.ac.uk/people/alastair.donaldson",
+        "university": "imperial",
+        "email": "alastair.donaldson@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8266"
     },
     {
-        "fullName": "Dr Haris Pervaiz",
-        "title": "",
-        "specialization": "Computer",
-        "phoneNumber": "Computer"
+        "fullName": "Prof. Sophia Drossopoulou",
+        "researchInterest": "\nObject Capability Policies, Concurrent Programming, Program Verification, Characterization of Program Evolution and Theorem Proving.\n",
+        "title": "Professor of Programming Languages",
+        "readMoreLink": "https://wp.doc.ic.ac.uk/sd/",
+        "university": "imperial",
+        "email": "s.drossopoulou@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8368"
     },
     {
-        "fullName": "Professor Steve Long",
-        "title": "",
-        "specialization": "",
+        "fullName": "Dr Naranker Dulay",
+        "researchInterest": "\nSecurity, Pervasive-Mobile-Distributed Systems, Networking, Software Engineering, Systems and Network Management, and Applied Machine Learning.\n",
+        "title": "Reader in Computing Science",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/nd/",
+        "university": "imperial",
+        "email": "n.dulay@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8288"
+    },
+    {
+        "fullName": "Prof. Abbas Edalat",
+        "researchInterest": "",
+        "title": "Professor of Computer Science and Mathematics",
+        "readMoreLink": "http://www.doc.ic.ac.uk/~ae/",
+        "university": "imperial",
+        "email": "a.edalat@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8245"
+    },
+    {
+        "fullName": "Prof. Susan Eisenbach",
+        "researchInterest": "\nProgramming Languages, Concurrency and Testing.\n",
+        "title": "Professor in Computing",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/susan/",
+        "university": "imperial",
+        "email": "s.eisenbach@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8264"
+    },
+    {
+        "fullName": "Dr Aldo Faisal",
+        "researchInterest": "",
+        "title": "Reader in Neurotechnology",
+        "readMoreLink": "http://www.imperial.ac.uk/people/a.faisal",
+        "university": "imperial",
+        "email": "a.faisal@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 6373"
+    },
+    {
+        "fullName": "Dr Tony Field",
+        "researchInterest": "\nEngineering for High-Performance, Virtual-time program execution (VTE), Functional programming, Individual-based models (IbMs).\n",
+        "title": "Reader in Performance Engineering",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/ajf/",
+        "university": "imperial",
+        "email": "t.field@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8364"
+    },
+    {
+        "fullName": "Dr Antonio Filieri",
+        "researchInterest": "\nExact and approximate methods for probabilistic software analysis and probabilistic programming, Control Theory for Software Engineering, and Runtime-efficient and incremental verification of quantitative and functional software properties.\n",
+        "title": "Lecturer",
+        "readMoreLink": "http://www.antonio.filieri.name/",
+        "university": "imperial",
+        "email": "a.filieri@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 9478"
+    },
+    {
+        "fullName": "Prof. Philippa Gardner",
+        "researchInterest": "\nJavaScript, Concurrency and Resource Reasoning.\n",
+        "title": "Professor of Theoretical Computer Science",
+        "readMoreLink": "http://www.imperial.ac.uk/people/p.gardner",
+        "university": "imperial",
+        "email": "p.gardner@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8292"
+    },
+    {
+        "fullName": "Dr Arthur H C Gervais",
+        "researchInterest": "\nMy research focuses on the security, privacy and performance of blockchain technology. Because this technology is still in its infancy, I largely focus on understanding and quantifying the tension points and tradeoffs in terms of security, privacy and performance, with the goal to build a mainstream, scalable, open, an...\n",
+        "title": "Lecturer",
+        "readMoreLink": "http://arthurgervais.com/",
+        "university": "imperial",
+        "email": "a.gervais@imperial.ac.uk",
         "phoneNumber": ""
     },
     {
-        "fullName": "Professor Richard Harper",
-        "title": "",
-        "specialization": "",
+        "fullName": "Dr Abhijeet Ghosh",
+        "researchInterest": "",
+        "title": "Reader",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~ghosh/",
+        "university": "imperial",
+        "email": "abhijeet.ghosh@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8351"
+    },
+    {
+        "fullName": "Dr Ben Glocker",
+        "researchInterest": "\nBiomedical Image Analysis and Computer Vision with a focus on semantic understanding of images using Machine Learning.\n",
+        "title": "Reader in Medical Image Computing",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/bglocker/",
+        "university": "imperial",
+        "email": "b.glocker@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8334"
+    },
+    {
+        "fullName": "Prof. Yi-Ke Guo",
+        "researchInterest": "\nKnowledge Discovery, Data Mining and Large-Scale Data Management.\n",
+        "title": "Director, Data Science Institute ",
+        "readMoreLink": "http://www.imperial.ac.uk/people/y.guo",
+        "university": "imperial",
+        "email": "y.guo@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8182"
+    },
+    {
+        "fullName": "Prof. Chris Hankin",
+        "researchInterest": "\nSecurity, Program Analysis and  Programming Language Theory.\n",
+        "title": "Director, Institute for Security Science & Technology",
+        "readMoreLink": "http://www.imperial.ac.uk/people/c.hankin",
+        "university": "imperial",
+        "email": "c.hankin@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 7619"
+    },
+    {
+        "fullName": "Prof. Peter G Harrison",
+        "researchInterest": "\nHe has researched into stochastic performance modelling and algebraic program transformation for some thirty five years, visiting IBM Research Centers for two spells.  He has written two books, had over 200 research papers published and chaired the Joint Sigmetrics/Performance conference at Imperial in 2012. The r...\n",
+        "title": "Professor of Mathematical Modelling",
+        "readMoreLink": "http://www.imperial.ac.uk/people/p.harrison",
+        "university": "imperial",
+        "email": "p.harrison@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8363"
+    },
+    {
+        "fullName": "Dr Thomas Heinis",
+        "researchInterest": "\nScientific Data Management, Distributed Data Processing, Spatial Databases, Indexing.\n",
+        "title": "Senior Lecturer",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/theinis/",
+        "university": "imperial",
+        "email": "t.heinis@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8276"
+    },
+    {
+        "fullName": "Prof. Michael Huth",
+        "researchInterest": "\nTrusted Computing, Access Control, Formal Methods, Insider Threats, Model-Driven Security, Risk Analysis.\n",
+        "title": "Professor of Computer Science",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~mrh/",
+        "university": "imperial",
+        "email": "m.huth@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8355"
+    },
+    {
+        "fullName": "Prof. Nick Jennings",
+        "researchInterest": "",
+        "title": "Vice-Provost (Research and Enterprise)",
+        "readMoreLink": "http://www.imperial.ac.uk/people/n.jennings",
+        "university": "imperial",
+        "email": "n.jennings@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8458"
+    },
+    {
+        "fullName": "Dr Edward Johns",
+        "researchInterest": "\n, Robot Manipulation, Deep Learning, Reinforcement Learning, Computer Vision\n",
+        "title": "Lecturer",
+        "readMoreLink": "https://www.imperial.ac.uk/people/e.johns ",
+        "university": "imperial",
+        "email": "e.johns@imperial.ac.uk",
         "phoneNumber": ""
     },
     {
-        "fullName": "Dr Angelos Marnerides",
-        "title": "",
-        "specialization": "Computer",
-        "phoneNumber": "Computer"
+        "fullName": "Dr Bernhard Kainz",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "http://www.imperial.ac.uk/people/b.kainz",
+        "university": "imperial",
+        "email": "b.kainz@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8349"
     },
     {
-        "fullName": "Dr Keith Cheverst",
-        "title": "",
-        "specialization": "",
+        "fullName": "Prof. Paul Kelly",
+        "researchInterest": "\nLanguages, compilers, operating systems for parallel computing. Domain-specific tools and active libraries. Computer systems issues underlying performance. Software tools for portable parallel programming. Irregular and data-intensive applications. Applying a broad range of mathematical and theoretical ideas to compute...\n",
+        "title": "Professor of Software Technology",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~phjk/",
+        "university": "imperial",
+        "email": "p.kelly@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8332"
+    },
+    {
+        "fullName": "Prof. William Knottenbelt",
+        "researchInterest": "\nApplication of mathematical modelling techniques to real life systems. modelling and optimisation in parallel queueing systems (especially split-merge and \n\n systems), modelling of storage systems, stochastic modelling of sport, stochastic modelling of healthcare systems, resource allocation and contro...\n",
+        "title": "Professor of Applied Quantitative Analysis",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~wjk/",
+        "university": "imperial",
+        "email": "w.knottenbelt@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8331"
+    },
+    {
+        "fullName": "Prof. Jeff Kramer",
+        "researchInterest": "\nDistributed Computing, Software Architectures, Behaviour Analysis, Software Evolution and Change,  \n\nAdaptive Software Systems and Requirements Analysis.\n",
+        "title": "Professor of Distributed Computing",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/jk/",
+        "university": "imperial",
+        "email": "j.kramer@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8271"
+    },
+    {
+        "fullName": "Prof. Kin Leung",
+        "researchInterest": "\nWireless Communications, Wireless Technologies, Communication Networks and Stochastic Modeling and Queueing Theory. \n",
+        "title": "Tanaka Chair in Internet Technology",
+        "readMoreLink": "http://www.commsp.ee.ic.ac.uk/~kkleung/",
+        "university": "imperial",
+        "email": "kin.leung@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 6238"
+    },
+    {
+        "fullName": "Dr Stefan Leutenegger",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/sleutene/",
+        "university": "imperial",
+        "email": "s.leutenegger@imperial.ac.uk\n\n",
+        "phoneNumber": "+44 (0)20 7594 7123"
+    },
+    {
+        "fullName": "Dr Ben Livshits",
+        "researchInterest": "\nSecurity, Privacy, Program Analysis, Compilers, Software Engineering and Crowdsourcing.\n",
+        "title": "Reader",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~livshits/",
+        "university": "imperial",
+        "email": "b.livshits@imperial.ac.uk",
         "phoneNumber": ""
     },
     {
-        "fullName": "Dr Matthew Broadbent",
-        "title": "",
-        "specialization": "Computer",
-        "phoneNumber": "Computer"
+        "fullName": "Prof. Alessio Lomuscio",
+        "researchInterest": "",
+        "title": "Professor in Logic for Multiagent Systems",
+        "readMoreLink": "http://www.doc.ic.ac.uk/~alessio/",
+        "university": "imperial",
+        "email": "a.lomuscio@imperial.ac.uk",
+        "phoneNumber": "+ 44 (0)20 7594 8414"
+    },
+    {
+        "fullName": "Prof. Wayne Luk",
+        "researchInterest": "\nHardware and Architecture, Reconfigurable Computing, Design Automation.\n",
+        "title": "Professor of Computer Engineering",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~wl/",
+        "university": "imperial",
+        "email": "w.luk@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8313"
+    },
+    {
+        "fullName": "Prof. Emil Lupu",
+        "researchInterest": "\nAdaptive Systems and Security,  Applied to: Personal Networks for Healthcare, Autonomous Vehicles, Wireless Sensor Networks, Mobile ad-hoc networks,  moretraditional networked infrastructures, data quality and protection, Security for sensor based environments, Security Managemen...\n",
+        "title": "Professor of Computer Systems",
+        "readMoreLink": "http://www.imperial.ac.uk/people/e.c.lupu",
+        "university": "imperial",
+        "email": "e.c.lupu@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8249"
+    },
+    {
+        "fullName": "Dr Sergio Maffeis",
+        "researchInterest": "\nComputer Security, Web Programming and Process Calculi.\n",
+        "title": "Senior Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~maffeis/",
+        "university": "imperial",
+        "email": "sergio.maffeis@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8390"
+    },
+    {
+        "fullName": "Prof. Jeff Magee",
+        "researchInterest": "\nHis research is concerned with the software engineering of self-adaptive and distributed systems, including design methods, analysis techniques, operating systems, languages and program support environments for these systems.\n",
+        "title": "Emeritus Professor ",
+        "readMoreLink": "http://www.imperial.ac.uk/people/j.magee",
+        "university": "imperial",
+        "email": "j.magee@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8601"
+    },
+    {
+        "fullName": "Dr Peter McBrien",
+        "researchInterest": "\nData Integration, Information Systems Modelling and Distributed Databases\n",
+        "title": "Senior Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~pjm/",
+        "university": "imperial",
+        "email": "p.mcbrien@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8202"
+    },
+    {
+        "fullName": "Prof. Julie McCann",
+        "researchInterest": "\nDecentralised Algorithms, Protocols, Cross-Layered Solutions to Wireless Sensor Networks, Ubiquitous and Mobile computing and Autonomic Computing.\n",
+        "title": "Professor of Computer Systems",
+        "readMoreLink": "https://wp.doc.ic.ac.uk/aese/person/julie-a-mccann/",
+        "university": "imperial",
+        "email": "jamm@imperial.ac.uk",
+        "phoneNumber": "+44 (0) 20 7594 8375"
+    },
+    {
+        "fullName": "Dr. Oskar Mencer",
+        "researchInterest": "",
+        "title": "Professor of Practice",
+        "readMoreLink": "https://www.imperial.ac.uk/people/o.mencer",
+        "university": "imperial",
+        "email": "o.mencer@imperial.ac.uk",
+        "phoneNumber": "+44 20 7594 8268"
+    },
+    {
+        "fullName": "Dr Ruth Misener",
+        "researchInterest": "",
+        "title": "Senior Lecturer in Computational Optimisation",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/rmisener/",
+        "university": "imperial",
+        "email": "r.misener@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8315"
+    },
+    {
+        "fullName": "Prof Stephen Muggleton",
+        "researchInterest": "\nInductive Logic Programming, Machine Learning Applications in Molecular Biology, Intelligent Adaptive Agents and Natural Language Learning.\n",
+        "title": "Professor of Machine Learning",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/shm/",
+        "university": "imperial",
+        "email": "s.muggleton@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8307"
+    },
+    {
+        "fullName": "Prof. Maja Pantic",
+        "researchInterest": "",
+        "title": "Professor of Affective & Behavioural Computing",
+        "readMoreLink": "https://ibug.doc.ic.ac.uk/maja/",
+        "university": "imperial",
+        "email": "m.pantic@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8195"
+    },
+    {
+        "fullName": "Dr Panos Parpas",
+        "researchInterest": "\nDevelopment and analysis of algorithms for large scale optimisation problems. Exploiting the structure of large scale models arising in applications.\n",
+        "title": "Reader",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~pp500/",
+        "university": "imperial",
+        "email": "panos.parpas@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8366"
+    },
+    {
+        "fullName": "Dr Iain Phillips",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~iccp/",
+        "university": "imperial",
+        "email": "i.phillips@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8265"
+    },
+    {
+        "fullName": "Prof. Peter Pietzuch",
+        "researchInterest": "\nDistributed Systems, Systems and Data Management and the Design and Engineering of Scalable, and Reliable and Secure Large-Scale Software Systems.\n",
+        "title": "Professor in Computing",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~prp/",
+        "university": "imperial",
+        "email": "prp@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8314"
+    },
+    {
+        "fullName": "Dr Holger Pirk",
+        "researchInterest": "\nMy research interests lie in analytical query processing on memory-resident data. In particular, I study storage schemes and processing models for modern hardware.\n",
+        "title": "Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~hlgr/",
+        "university": "imperial",
+        "email": "pirk@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 3008"
+    },
+    {
+        "fullName": "Dr. Azalea Raad",
+        "researchInterest": "",
+        "title": "Lecturer",
+        "readMoreLink": "http://www.soundandcomplete.org/",
+        "university": "imperial",
+        "email": "azalea.raad06@imperial.ac.uk",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Dr. Marek Rei",
+        "researchInterest": "",
+        "title": "Lecturer in Machine Learning and NLP",
+        "readMoreLink": "mailto:marek.rei@imperial.ac.uk",
+        "university": "imperial",
+        "email": "marek.rei@imperial.ac.uk",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Prof. Daniel Rueckert",
+        "researchInterest": "",
+        "title": "Professor of Visual Information Processing and Head of Department",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/dr/",
+        "university": "imperial",
+        "email": "d.rueckert@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8333"
+    },
+    {
+        "fullName": "Prof. Alessandra Russo",
+        "researchInterest": "",
+        "title": "Professor in Applied Computational Logic",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/arusso/",
+        "university": "imperial",
+        "email": "a.russo@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8312"
+    },
+    {
+        "fullName": "Dr Fariba Sadri",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~fs/",
+        "university": "imperial",
+        "email": "f.sadri@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8224"
+    },
+    {
+        "fullName": "Dr Bjoern Schuller",
+        "researchInterest": "",
+        "title": "Professor in Machine Learning",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~bschulle/",
+        "university": "imperial",
+        "email": "bjoern.schuller@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8357"
+    },
+    {
+        "fullName": "Prof. Murray Shanahan",
+        "researchInterest": "",
+        "title": "Professor in Cognitive Robotics",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~mpsha/index.html",
+        "university": "imperial",
+        "email": "m.shanahan@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8262"
+    },
+    {
+        "fullName": "Dr Viktoriia Sharmanska",
+        "researchInterest": "\nComputer Vision, Machine Learning, Deep Learning methods, Crowdsourcing.  \n",
+        "title": "Research Fellow",
+        "readMoreLink": "http://ilovevisiondata.wixsite.com/viktoriia",
+        "university": "imperial",
+        "email": "sharmanska.v@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8241"
+    },
+    {
+        "fullName": "Prof. Morris Sloman",
+        "researchInterest": "\nPervasive systems, adaptive distributed systems, and policy-based management.\n",
+        "title": "Professor of Distributed Systems Management",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/mss/",
+        "university": "imperial",
+        "email": "m.sloman@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8279"
+    },
+    {
+        "fullName": "Prof. Lucia Specia",
+        "researchInterest": "",
+        "title": "Professor ",
+        "readMoreLink": "mailto:l.specia@imperial.ac.uk",
+        "university": "imperial",
+        "email": "l.specia@imperial.ac.uk",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Prof. Francesca Toni",
+        "researchInterest": "",
+        "title": "Professor in Computational Logic",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~ft/",
+        "university": "imperial",
+        "email": "f.toni@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8228"
+    },
+    {
+        "fullName": "Dr Daphne Tuncer",
+        "researchInterest": "",
+        "title": "Research Fellow",
+        "readMoreLink": "mailto:d.tuncer@imperial.ac.uk",
+        "university": "imperial",
+        "email": "d.tuncer@imperial.ac.uk",
+        "phoneNumber": "020 7594 8253"
+    },
+    {
+        "fullName": "Dr Sebastian Uchitel",
+        "researchInterest": "\nSoftware Engineering, Modelling and Analysis as a means to gain confidence in requirements, design and code artefacts, Partial Behaviour Models, Scenario-Based Specifications, Verification of Probabilistic Systems, Controller Synthesis, Machine Learning for Automated Diagnosis, Automatic Abstraction for Validation, and...\n",
+        "title": "Reader in Software Engineering",
+        "readMoreLink": "http://wp.doc.ic.ac.uk/su2/",
+        "university": "imperial",
+        "email": "s.uchitel@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8269"
+    },
+    {
+        "fullName": "Dr Steffen van Bakel",
+        "researchInterest": "\nFunctional Programming:Lambda Calculus, Term Rewriting Systems, Term Graph Rewriting Systems, Mobile Ambients, Systems Biology, Type systems: Sequent Calculus for Classical Logic, Curry Howard Isomorphism,Intersection type assignment, Polymorphic type assignment, Decidable systems, Type theory and theorem provers, Sema...\n",
+        "title": "Senior Lecturer",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~svb/",
+        "university": "imperial",
+        "email": "s.van.bakel@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8263"
+    },
+    {
+        "fullName": "Dr Herbert Wiklicky",
+        "researchInterest": "\nProgram Analysis, semantics of programming languages, Probabilistic Models, Program Synthesis, semantics in Computer Security and Quantum Computation.\n",
+        "title": "Reader in Computer Science",
+        "readMoreLink": "https://www.doc.ic.ac.uk/~herbert/",
+        "university": "imperial",
+        "email": "h.wiklicky@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8206"
+    },
+    {
+        "fullName": "Dr. Nicolas Wu",
+        "researchInterest": "",
+        "title": "Senior Lecturer",
+        "readMoreLink": "https://www.imperial.ac.uk/people/n.wu",
+        "university": "imperial",
+        "email": "n.wu@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8189"
+    },
+    {
+        "fullName": "Prof. Nobuko Yoshida",
+        "researchInterest": "\nTheoretical Computer Science.\n",
+        "title": "Professor of Computing",
+        "readMoreLink": "http://mrg.doc.ic.ac.uk/people/nobuko-yoshida/",
+        "university": "imperial",
+        "email": "n.yoshida@imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8240"
+    },
+    {
+        "fullName": "Dr Stefanos Zafeiriou",
+        "researchInterest": "",
+        "title": "Reader",
+        "readMoreLink": "https://wp.doc.ic.ac.uk/szafeiri/",
+        "university": "imperial",
+        "email": "s.zafeiriou at imperial.ac.uk",
+        "phoneNumber": "+44 (0)20 7594 8461"
     }
 ]
