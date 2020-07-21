@@ -1,62 +1,62 @@
 [
     {
+        "fullName": "Professor Peter Atkinson",
+        "title": "",
+        "specialization": "",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Professor Corina Sas",
+        "title": "",
+        "specialization": "",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Dr Lynne Blair",
+        "title": "",
+        "specialization": "",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Dr Scott Piao",
+        "title": "",
+        "specialization": "Computer",
+        "phoneNumber": "Computer"
+    },
+    {
+        "fullName": "Dr Haris Pervaiz",
+        "title": "",
+        "specialization": "Computer",
+        "phoneNumber": "Computer"
+    },
+    {
+        "fullName": "Professor Steve Long",
+        "title": "",
+        "specialization": "",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Professor Richard Harper",
+        "title": "",
+        "specialization": "",
+        "phoneNumber": ""
+    },
+    {
+        "fullName": "Dr Angelos Marnerides",
+        "title": "",
+        "specialization": "Computer",
+        "phoneNumber": "Computer"
+    },
+    {
+        "fullName": "Dr Keith Cheverst",
+        "title": "",
+        "specialization": "",
+        "phoneNumber": ""
+    },
+    {
         "fullName": "Dr Matthew Broadbent",
         "title": "",
         "specialization": "Computer",
         "phoneNumber": "Computer"
-    },
-    {
-        "fullName": "Thomas Wells",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
-    },
-    {
-        "fullName": "Jonathan Woodruff",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
-    },
-    {
-        "fullName": "Dr Damian Arellanes",
-        "title": "",
-        "specialization": "Computer",
-        "phoneNumber": "Computer"
-    },
-    {
-        "fullName": "Dr Barry Porter",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
-    },
-    {
-        "fullName": "Professor Tracy Hall",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
-    },
-    {
-        "fullName": "Dr Charalampos Rotsos",
-        "title": "",
-        "specialization": "Computer",
-        "phoneNumber": "Computer"
-    },
-    {
-        "fullName": "Muhammad Adamu",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
-    },
-    {
-        "fullName": "Professor Michael Pidd",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
-    },
-    {
-        "fullName": "Dr Alistair Baron",
-        "title": "",
-        "specialization": "",
-        "phoneNumber": ""
     }
 ]
