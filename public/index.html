@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            .full-height {
+                height: 100%;
+                width:  80%;
+                margin: auto;
+                overflow: hidden;
+            }
+
+            input[type=search] {
+              width: 590px;
+              box-sizing: border-box;
+              border: 2px solid #ccc;
+              border-radius: 4px;
+              font-size: 16px;
+              background-color: white;
+              background-image: url('searchicon.png');
+              background-position: 10px 10px; 
+              background-repeat: no-repeat;
+              padding: 12px 20px 12px 40px;
+              -webkit-transition: width 0.4s ease-in-out;
+              transition: width 0.4s ease-in-out;
+            }
+            
+            input[type=search]:focus {
+              width: 100%;
+            }
+            a {
+                text-decoration: none;
+            }
+
+            .container {
+                position: relative;
+                top: 30px;
+                overflow: scroll;
+                margin: auto;
+                height: 80%;
+            }
+
+            .card {
+                border-bottom: 1px solid;
+                margin-bottom: 10px;
+                padding: 5px;
+                text-align:  justify;
+                margin: auto;
+            }
+            </style>
+    </head>
+    <body>
+        <div id="root" class="full-height">
+            <div id="search">
+                <h2 class="desc">Search for potential supervisor for your research studies</h2>
+                <input type="search" name="search" id="search" placeholder="Search ..." value="" />
+            </div>
+        </div>
+    
+        <script src="script.js" async defer></script>
+    </body>
+</html>

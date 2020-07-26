@@ -5,8 +5,9 @@
     "main": "server.js",
     "author": "Sulenchy",
     "dependencies": {
+        "cheerio": "latest",
         "express": "latest",
-        "request": "latest",
-        "cheerio": "latest"
+        "minisearch": "2.4.1",
+        "request": "latest"
     }
 }

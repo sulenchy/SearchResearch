@@ -2,41 +2,45 @@ var express = require('express');
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
+var MiniSearch = require('minisearch');
+var documents = require('./output.json');
+var path = require('path');
 var app = express();
+
+app.use('/static', express.static(path.join(__dirname, 'public')))
 
 app.get('/scrape', function (req, res) {
 
+  var lancasterList = [];
+  var imperialList = [];
+  var coventryList = [];
 
-
-  var json = [];
-  //get professor's info in lancaster
-
-  var lancasterUrl = 'https://www.lancaster.ac.uk/search/?collection=lancaster-meta&query=computer&tab=people&start_rank=11';
-  //get professor's info incoventry
+  var lancasterUrl = 'https://www.lancaster.ac.uk/search/?collection=lancaster-meta&query=computer&tab=people';
+  
   var imperialUrl = 'https://www.imperial.ac.uk/computing/people/academic-staff/';
+
+  var coventryUrl = 'https://www.coventry.ac.uk/life-on-campus/staff-directory/?filters=1187';
 
   request(lancasterUrl, function (error, response, html) {
 
     if (!error) {
       var $ = cheerio.load(html);
 
-      $('.fb-result__info').filter(function () {
-        var data = $(this);
-        var fullName = data.children().first().children('.staff-details').children().first().text();
-        var title = data.children().first().children('.staff-details').children().last().text();
-        var phoneNumber = data.children().last().children('.staff-contact').children().first().text();
-        var department = data.children().last().children('.staff-contact').children().last().text();
-        var readMoreLink = '';
+      $('.people').find('li').each(function (index, element) {
+        var fullName = $(element).find('.staff-details').find('h2').find('a').text();
+        var title = $(element).find('.staff-details').find('.job-title').text();
+        var phoneNumber = $(element).find('.staff-contact').find('.details-list__tel').find('a').text();
+        var department = $(element).find('.staff-contact').find('.details-list__location').text();
+        var readMoreLink = $(element).find('.staff-details').find('h2').find('a').attr('href');
+        var researchInterest = '';
         var university= 'lancaster';
 
-        json.push({ fullName, title, phoneNumber, department, readMoreLink, university });
+        lancasterList.push({ fullName, title, phoneNumber, department, readMoreLink, university, researchInterest });
       })
     }
-
   });
 
-
-  //get professor's info in imperial
+  // get professor's info in imperial
   request(imperialUrl, function (error, response, html) {
 
     if (!error) {
@@ -50,27 +54,56 @@ app.get('/scrape', function (req, res) {
        var email = $(element).find('.name-wrapper').find('.contact').find('a').attr('href').split(':')[1];
        var phoneNumber = $(element).find('.name-wrapper').find('.contact').find('.tel').text();
        var university = 'imperial';
-       json.push({ fullName, researchInterest, title, readMoreLink, university, email, phoneNumber })
+
+       imperialList.push({ fullName, researchInterest, title, readMoreLink, university, email, phoneNumber })
+      });
+    }
+  });
+
+  request(coventryUrl, function (error, response, html) {
+
+    if (!error) {
+      var $ = cheerio.load(html);
+
+      $('div[class="container ptm"]').find('.row').each(function (index, element) {
+       var fullName = $(element).find('.col-sm-12').find('h4').find('a').text();
+       var researchInterest = $(element).find('.col-sm-12').find('.research-centre').text();
+       var readMoreLink = 'https://www.coventry.ac.uk' + $(element).find('.col-sm-12').find('h4').find('a').attr('href');
+       var title = $(element).find('.col-sm-12').find('p').eq(-2).text().split('|')[0];
+
+       var email =  $(element).find('.col-sm-12').find('p').eq(-2).find('a').attr('href');
+       email = email && email.split(':')[1];
+       var university = 'coventry';
+
+       coventryList.push({ fullName, readMoreLink, university, researchInterest, title, email })
       });
     }
 
-    // To write to the system we will use the built in 'fs' library.
-    // In this example we will pass 3 parameters to the writeFile function
-    // Parameter 1 :  output.json - this is what the created filename will be called
-    // Parameter 2 :  JSON.stringify(json, null, 4) - the data to write, here we do an extra step by calling JSON.stringify to make our JSON easier to read
-    // Parameter 3 :  callback function - a callback function to let us know the status of our function
-
-    fs.writeFile('output.json', JSON.stringify(json, null, 4), function (err) {
+    fs.writeFile('output.json', JSON.stringify([...lancasterList, ...imperialList, ...coventryList], null, 4), function (err) {
 
       console.log('File successfully written! - Check your project directory for the output.json file');
 
     })
-
-    // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
-    res.send('Check your console!')
-
+    res.send('Check your console!');
   });
   
+})
+
+app.get('/search/:query', function(req, res) {
+  var miniSearch = new MiniSearch({
+    idField: 'researchInterest',
+    fields: [ 'phoneNumber', 'fullName', 'researchInterest', 'university', 'readMoreLink' ],
+    storeFields: [ 'phoneNumber', 'fullName', 'researchInterest', 'university', 'readMoreLink' ],
+    searchOptions: {
+      boost: { fullName: 2 },
+      fuzzy: 0.2
+    }
+  })
+  miniSearch.addAll(documents)
+   
+  // It will now by default perform fuzzy search and boost "title":
+  var result = miniSearch.search(req.params.query)
+  res.send(result)
 })
 
 app.listen('8081')

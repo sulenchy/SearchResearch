@@ -1,83 +1,93 @@
 [
     {
+        "fullName": "Professor Peter Atkinson",
+        "title": "Professor, Faculty Dean",
+        "phoneNumber": "+44 (0)1524 595203",
+        "department": "Lancaster Environment Centre",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Flec%2Fabout-us%2Fpeople%2Fpeter-atkinson&auth=l2gMW6s7WwmdGZbjZP6%2FOw&profile=_default&rank=1&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Professor Corina Sas",
+        "title": "Professor",
+        "phoneNumber": "+44 (0)1524 510318",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fscc%2Fabout-us%2Fpeople%2Fcorina-sas&auth=sZJLlDG822R96Aj97Btv3A&profile=_default&rank=2&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Dr Lynne Blair",
+        "title": "Senior Lecturer",
+        "phoneNumber": "+44 (0)1524 510360",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fscc%2Fabout-us%2Fpeople%2Flynne-blair&auth=AfO88ltiVoNSS60NYJhMXQ&profile=_default&rank=3&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Dr Scott Piao",
+        "title": "Lecturer in Computer Science",
+        "phoneNumber": "",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fsci-tech%2Fabout-us%2Fpeople%2Fscott-piao&auth=9KcyOPiY3DhJ%2BmCo5%2FPpow&profile=_default&rank=4&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Dr Haris Pervaiz",
+        "title": "Lecturer in Computer Science",
+        "phoneNumber": "+44 (0)1524 510485",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fsci-tech%2Fabout-us%2Fpeople%2Fharis-bin-pervaiz&auth=yVkJ60tmMNrzJ4%2FJ9arRhQ&profile=_default&rank=5&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Professor Steve Long",
+        "title": "Distinguished Professor in Crop Sciences FRS",
+        "phoneNumber": "+44 (0)1524 592623",
+        "department": "Lancaster Environment Centre",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Flec%2Fabout-us%2Fpeople%2Fsteve-long&auth=kdfrspRa0iNadOurmxUHvA&profile=_default&rank=6&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Professor Richard Harper",
+        "title": "Professor, Co-Director of the Institute for Social Futures",
+        "phoneNumber": "+44 (0)1524 593105",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fpeople-profiles%2Frichard-harper&auth=Jboqoum53ECdEe98fFxuOA&profile=_default&rank=7&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Dr Keith Cheverst",
+        "title": "Reader",
+        "phoneNumber": "+44 (0)1524 510312",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fscc%2Fabout-us%2Fpeople%2Fkeith-cheverst&auth=vczYlzBsN9KUvgRUU%2F%2BvAw&profile=_default&rank=8&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
+        "fullName": "Dr Angelos Marnerides",
+        "title": "Lecturer in Computer Networking",
+        "phoneNumber": "+44 (0)1524 510310",
+        "department": "Computing and Communications",
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fpeople-profiles%2Fangelos-marnerides&auth=ujUHDunmF6E1KgOTsq1S4w&profile=_default&rank=9&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
+    },
+    {
         "fullName": "Dr Hossein Rahmani",
         "title": "Lecturer in Data Science",
-        "phoneNumber": "Computing and Communications",
+        "phoneNumber": "",
         "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Thomas Wells",
-        "title": "PhD student",
-        "phoneNumber": "Computing and Communications",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Dr Damian Arellanes",
-        "title": "International Lecturer (BJTU) in Computer Science",
-        "phoneNumber": "Computing and Communications",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Jonathan Woodruff",
-        "title": "PhD student",
-        "phoneNumber": "+44 (0)1524 510371",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Dr Barry Porter",
-        "title": "Lecturer",
-        "phoneNumber": "+44 (0)1524 592882",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Dr Charalampos Rotsos",
-        "title": "Lecturer in Computer Networks and Networked Systems",
-        "phoneNumber": "+44 (0)1524 510425",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Muhammad Adamu",
-        "title": "PhD student",
-        "phoneNumber": "+44 (0)1524 510371",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Professor Tracy Hall",
-        "title": "Chair in Software Engineering",
-        "phoneNumber": "+44 (0)1524 593989",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Professor Michael Pidd",
-        "title": "Emeritus Professor",
-        "phoneNumber": "Management Science",
-        "department": "Management Science",
-        "readMoreLink": "",
-        "university": "lancaster"
-    },
-    {
-        "fullName": "Dr Alistair Baron",
-        "title": "Lecturer",
-        "phoneNumber": "+44 (0)1524 510037",
-        "department": "Computing and Communications",
-        "readMoreLink": "",
-        "university": "lancaster"
+        "readMoreLink": "https://lancaster-search.squiz.cloud/s/redirect?collection=lancaster-meta&url=https%3A%2F%2Fwww.lancaster.ac.uk%2Fscc%2Fabout-us%2Fpeople%2Fhossein-rahmani&auth=ltgz708gZ%2FG8cmody6EPMA&profile=_default&rank=10&query=computer+%7Ctab%3A%22%24%2B%2B+People+%24%2B%2B%22",
+        "university": "lancaster",
+        "researchInterest": ""
     },
     {
         "fullName": "Dr Dalal Alrajeh",
@@ -717,5 +727,139 @@
         "university": "imperial",
         "email": "s.zafeiriou at imperial.ac.uk",
         "phoneNumber": "+44 (0)20 7594 8461"
+    },
+    {
+        "fullName": "Dr John Filippas",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/dr-john-filippas/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Computing, Electronics and Mathematics",
+        "title": "Senior Lecturer in Computer Networking",
+        "email": "csy111@coventry.ac.uk"
+    },
+    {
+        "fullName": "Derrick Newton",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/dr-derrick-newton/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Computing, Electronics and Mathematics",
+        "title": "Lecturer in Computer Science",
+        "email": "ab3729@coventry.ac.uk"
+    },
+    {
+        "fullName": "Craig Lashford",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/craig-lashford/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Senior Lecturer",
+        "email": "ab0874@coventry.ac.uk"
+    },
+    {
+        "fullName": "Martin Nthakomwa",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/martin-nthakomwa/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Lecturer in International Disaster Relief and Community Reconstruction",
+        "email": "aa5686@coventry.ac.uk"
+    },
+    {
+        "fullName": "Abdussalam Shibani",
+        "readMoreLink": "https://www.coventry.ac.uk/research/researchers/abdussalam-shibani/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Abdussalam Shibani"
+    },
+    {
+        "fullName": "Dr. Parveen Samra",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/dr-parveen-samra/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing",
+        "title": "Associate Dean – Quality and Accreditation, EEC",
+        "email": "csx223@coventry.ac.uk"
+    },
+    {
+        "fullName": "Dr Saad Ali Amin",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/saad-amin/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Computing, Electronics and Mathematics",
+        "title": "Principal Lecturer in Networked Systems",
+        "email": "csx188@coventry.ac.uk"
+    },
+    {
+        "fullName": "Furrkh Aslam",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/mr-furrkh-aslam/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Computing, Electronics and Mathematics",
+        "title": "Senior Lecturer",
+        "email": "csx207@coventry.ac.uk"
+    },
+    {
+        "fullName": "Michelle Newman",
+        "readMoreLink": "https://www.coventry.ac.ukhttps://pureportal.coventry.ac.uk/en/persons/michelle-newman",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Associate Head of School, Student Experiences",
+        "email": "aa3202@coventry.ac.uk"
+    },
+    {
+        "fullName": "Geoff Booth",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/geoff-booth/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Mechanical, Aerospace and Automotive Engineering",
+        "title": "Metrology Specialist and Senior Lecturer in Dimensional Metrology ",
+        "email": "geoffry.booth@coventry.ac.uk"
+    },
+    {
+        "fullName": "Michael Odetayo",
+        "readMoreLink": "https://www.coventry.ac.uk/life-on-campus/staff-directory/engineering-environment-and-computing/dr-michael-odetayo/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Computing, Electronics and Mathematics",
+        "title": "Michael Odetayo",
+        "email": "csx190@coventry.ac.uk"
+    },
+    {
+        "fullName": "Suresh Surendran",
+        "readMoreLink": "https://www.coventry.ac.uk/research/researchers/suresh-surendran/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Senior Lecturer in Civil Engineering",
+        "email": "ab9618@coventry.ac.uk"
+    },
+    {
+        "fullName": "Neil Tsang",
+        "readMoreLink": "https://www.coventry.ac.uk/research/researchers/neil-tsang/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Principal Lecturer",
+        "email": "aa8607@coventry.ac.uk"
+    },
+    {
+        "fullName": "Farzana Aslam",
+        "readMoreLink": "https://www.coventry.ac.ukhttps://pureportal.coventry.ac.uk/en/persons/farzana-aslam",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | Computing, Electronics and Mathematics",
+        "title": "Associate Head of School, Student Experience",
+        "email": "aa4015@coventry.ac.uk"
+    },
+    {
+        "fullName": "Graham Price",
+        "readMoreLink": "https://www.coventry.ac.uk/research/researchers/graham-price/",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Academic Developer",
+        "email": "aa5541@coventry.ac.uk"
+    },
+    {
+        "fullName": "John Ironman",
+        "readMoreLink": "https://www.coventry.ac.ukhttps://pureportal.coventry.ac.uk/en/persons/john-ironman",
+        "university": "coventry",
+        "researchInterest": "Faculty of Engineering, Environment and Computing | School of Energy, Construction and Environment",
+        "title": "Associate Head of School, Recruitment and Marketing",
+        "email": "ab0106@coventry.ac.uk"
+    },
+    {
+        "fullName": "",
+        "readMoreLink": "https://www.coventry.ac.ukundefined",
+        "university": "coventry",
+        "researchInterest": "",
+        "title": ""
     }
 ]
