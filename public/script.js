@@ -17,7 +17,7 @@ app.appendChild(container)
 searchInput.oninput = function(event) {
   var query = event.target.value;
   
-  request.open('GET', 'http://localhost:8081/search/' + event.target.value, true)
+  request.open('GET', 'http://localhost:4040/search' + event.target.value, true)
   request.onload = function () {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response)
