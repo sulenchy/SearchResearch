@@ -4,8 +4,12 @@
     "description": "Scraping web for research supervisor",
     "main": "server.js",
     "author": "Sulenchy",
+    "scripts": {
+        "start": "node src/index"
+    },
     "dependencies": {
         "cheerio": "latest",
+        "dotenv": "8.2.0",
         "express": "latest",
         "minisearch": "2.4.1",
         "request": "latest"

@@ -4,10 +4,13 @@ var request = require('request');
 var cheerio = require('cheerio');
 var MiniSearch = require('minisearch');
 var documents = require('./output.json');
+var dotenv = require('dotenv');
 var path = require('path');
 var app = express();
 
-app.use('/static', express.static(path.join(__dirname, 'public')))
+dotenv.config();
+
+app.use('/static', express.static(path.join(__dirname, '../public')))
 
 app.get('/scrape', function (req, res) {
 
@@ -106,6 +109,6 @@ app.get('/search/:query', function(req, res) {
   res.send(result)
 })
 
-app.listen('8081')
-console.log('Magic happens on port 8081');
+app.listen(process.env.PORT)
+console.log(`Magic happens on port ${ process.env.PORT }`);
 exports = module.exports = app;
