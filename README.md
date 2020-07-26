@@ -19,6 +19,9 @@ A vertical search engine for students who want to apply for postgraduate researc
 ## Running the app
 
 - Run `npm start`
+### Get the app online
+
+- https://blooming-peak-97299.herokuapp.com/static/
 
 ## Built With
 
