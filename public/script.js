@@ -17,7 +17,7 @@ app.appendChild(container)
 searchInput.oninput = function(event) {
   var query = event.target.value;
   
-  request.open('GET', 'http://localhost:4040/search' + event.target.value, true)
+  request.open('GET', 'http://localhost:4040/search/' + event.target.value, true)
   request.onload = function () {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response)
@@ -48,7 +48,6 @@ searchInput.oninput = function(event) {
       container.innerHTML = '';
       container.appendChild(errorMessage)
     }
-    console.log('===> ', data);
   }
   if (query) {
     request.send();
