@@ -109,6 +109,6 @@ app.get('/search/:query', function(req, res) {
   res.send(result)
 })
 
-app.listen(process.env.PORT)
-console.log(`Magic happens on port ${ process.env.PORT }`);
+app.listen(4040)
+console.log(`Magic happens on port 4040`);
 exports = module.exports = app;
