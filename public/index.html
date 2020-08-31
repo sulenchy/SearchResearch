@@ -9,21 +9,30 @@
         <link rel="stylesheet" href="">
         <style>
             html, body {
+                align-items: center;
+                background-color: #fff;
+                display: flex;
                 height: 100%;
+                justify-content: center;
             }
 
             .full-height {
-                height: 100%;
-                width:  80%;
+                box-shadow: 1px 5px 10px 10px rgba(155, 152, 154, 0.48);
+                height: auto;
                 margin: auto;
-                overflow: hidden;
+                padding: 20px;
+                min-width:  500px;
+
+                animation-name: example;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
             }
 
             input[type=search] {
-              width: 590px;
-              box-sizing: border-box;
-              border: 2px solid #ccc;
-              border-radius: 4px;
+              width: 100%;
+              box-sizing: border-box;    
+              border: none;
+              outline: none;
               font-size: 16px;
               background-color: white;
               background-image: url('searchicon.png');
@@ -60,14 +69,25 @@
                 text-align:  justify;
                 margin: auto;
             }
+            .desc {
+                text-align: center;
+            }
+
+            @keyframes example {
+                0%   {width: 500px; height: 400px;}
+                25%  {width: 600px; height: 500px;}
+                50%  {width: 700px; height: 600px;}
+                100% {width: 800px; height: 700px;}
+            }
             </style>
     </head>
     <body>
         <div id="root" class="full-height">
             <div id="search">
-                <h2 class="desc">Search for potential supervisor for your research studies</h2>
-                <input type="search" name="search" id="search" placeholder="Search ..." value="" />
+                <i class="fa fa-search"></i><input type="search" name="search" id="search" placeholder="Search for potential supervisor" value="" />
             </div>
+            <p>Search result</p>
+            <hr />
         </div>
     
         <script src="script.js"></script>
