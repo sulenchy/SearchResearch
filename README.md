@@ -1,6 +1,6 @@
-# Vertical-Search-Engine-For-School-Research
+# Search Research
 
-A vertical search engine for students who want to apply for postgraduate research studies and look for potential supervisors at a UK university(Imperial, lancaster and coventry university)
+This is a vertical search engine for students who want to apply for postgraduate research studies and look for potential supervisors at a UK university(Imperial, lancaster and coventry university)
 
 ### Prerequisites
 
